@@ -1,9 +1,5 @@
 # 📰 Fake News Detection Using NDTV News Data (ML)
 
-This project uses **machine learning techniques** to detect fake news in articles sourced from NDTV and other relevant sources. It aims to build a model that can classify news articles as **real** or **fake** based on their content.
-
----
-
 ## 📌 Project Objective
 
 To develop an ML-based system that accurately identifies fake news using the textual content of news articles, helping mitigate misinformation spread across digital platforms.
@@ -12,7 +8,7 @@ To develop an ML-based system that accurately identifies fake news using the tex
 
 ## 📊 Dataset
 
-* **Source**: NDTV news articles (scraped or collected)
+* **Source**: NDTV news articles (fakenews_dataset)
 * **Supplementary Sources**: Optionally merged with other labeled datasets to improve performance.
 * **Structure**:
 
@@ -134,14 +130,3 @@ python main.py
 * Integrate BERT or transformer models for improved context awareness
 * Build an API or Streamlit app for real-time predictions
 * Extend dataset to multi-language and multi-source news
-## 🙋‍♂️ Contributions
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
----
-
-Let me know if you'd like to add:
-
-* A link to a dataset (if public)
-* Sample prediction interface (via CLI, web app, etc.)
-* Integration with real-time scraping or APIs (NDTV RSS, for example)
